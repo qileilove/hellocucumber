@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: hellocucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.617 sec <<< FAILURE!
+Sunday isn't Friday(Is it Friday yet?)  Time elapsed: 0.145 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'today is Sunday' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("today is Sunday")
+public void today_is_sunday() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I ask whether it's Friday yet")
+public void i_ask_whether_it_s_friday_yet() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should be told {string}")
+public void i_should_be_told(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
